@@ -1,0 +1,35 @@
+extends ./layout/index 
+
+//- puede estar solo o si le colocamos un = ya espera una variable
+//- p #{viajes} viajes seria una variable  
+
+block contenido 
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina 
+                
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a diam massa. Aliquam ornare nibh nunc, id lobortis dolor interdum at. Phasellus mollis tortor vel nunc lacinia, eget consequat lorem pellentesque. Proin pharetra non tortor luctus feugiat. Phasellus pretium consectetur tellus, eget pharetra turpis suscipit vitae. Nullam volutpat dapibus sollicitudin. 
+
+                p Aliquam congue, orci fringilla vulputate elementum, diam mi luctus risus, ac facilisis mauris ligula posuere enim. Aenean sit amet augue sollicitudin, malesuada leo in, fermentum magna. Donec sed mollis nulla. Integer metus lectus, pharetra nec lobortis eget, rutrum vel eros. Ut a maximus ex, at condimentum purus. Mauris ultrices ornare libero a rhoncus. Vivamus at dolor ac risus dignissim suscipit a ac nunc. 
+
+                p Aenean quam risus, mattis at maximus fringilla, volutpat in tellus. Mauris felis mauris, tincidunt sit amet nisl in, efficitur ultricies sapien. Maecenas viverra tortor volutpat nulla viverra vulputate. Aenean luctus mi et turpis venenatis ultricies. Maecenas ut pharetra mauris. Sed lorem turpis, sodales eu condimentum et, hendrerit eu ipsum. Morbi vel nulla ipsum. Aliquam in massa massa. Donec nec blandit nulla. 
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4           
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguriad 
+                    p Aenean quam risus, mattis at maximus fringilla, volutpat in tellus.
+
+                .col-md-4           
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Destinos
+                    p Aenean quam risus, mattis at maximus fringilla, volutpat in tellus.
+
+                .col-md-4           
+                    img(src="img/icono_precios.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Precios 
+                    p Aenean quam risus, mattis at maximus fringilla, volutpat in tellus.
